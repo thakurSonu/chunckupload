@@ -7,10 +7,6 @@ import android.os.AsyncTask;
 import android.util.Log;
 
 import com.iceteck.silicompressorr.SiliCompressor;
-import com.virinchi.core.DocApplication;
-import com.virinchi.util.ImageProcess;
-import com.virinchi.util.Validation;
-import com.virinchi.video.compressor.video.MediaController;
 
 import java.io.File;
 import java.util.List;
