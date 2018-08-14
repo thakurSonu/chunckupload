@@ -2,13 +2,6 @@ package com.sonu.cupload;
 
 import android.util.Log;
 
-import com.virinchi.api.ApiManager;
-import com.virinchi.core.DocApplication;
-import com.virinchi.core.GlobalSetting;
-import com.virinchi.util.LogEx;
-import com.virinchi.util.UtilsUserInfo;
-import com.virinchi.util.Validation;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -50,7 +43,6 @@ public class ApacheUploader{
         map.put("num", num);
         map.put("chunk_status", chunk_status);
         map.put("file_type", fileType);
-        map.put("product_type", product_type);
 
      /// api call
       
